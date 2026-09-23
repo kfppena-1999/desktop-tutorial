@@ -240,6 +240,36 @@ form button:hover,
     background-color: #143d96;
 }
 
+
+/* Appointment Management BUTTONS */
+.btn-cancel,
+.btn-reschedule,
+.btn-done {
+    min-width: 110px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+}
+
+.btn-cancel {
+    background-color: #b42318;
+    border-color: #b42318;
+}
+
+.btn-cancel:hover {
+    background-color: #8f1d14;
+}
+
+.btn-done {
+    background-color: #757070;
+    border-color: #494949;
+}
+
+.btn-done:hover {
+    background-color: #757070;
+}
+/* UPTO HEREE */
+
+
 .quick-actions {
     display: flex;
     gap: 12px;

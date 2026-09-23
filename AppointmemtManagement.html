@@ -29,8 +29,8 @@
 <!--        <a href="MyBookings.html">My Bookings</a>
             <a href="MyCourses.html">My Courses</a>
 -->
-            <a href="Schedules.html">Schedules</a>
-            <a href="AppointmemtManagement.html" class="active">Appointment Management</a>
+            <a href="schedules.html">Schedules</a>
+            <a href="appointmemtmanagement.html" class="active">Appointment Management</a>
  
             <div class="nav-right">
                 <div class="user-badge">
@@ -40,5 +40,85 @@
                 <a href="index.html">Log out</a>
             </div>
         </nav>
+
+        <section>   
+            <h2>Appointment Management</h2>
+            <p><em>History and upcoming appointments.</em></p>
+<!-- INACTIVE APPOINTMENTS (AKA: HISTORY) -->
+               <table>
+                    <tr>
+                        <th>Student</th>
+                        <th>Course</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Purpose</th>
+                    </tr>
+        
+                    <tr>
+                        <td>Juan Cruz</td>
+                        <td>Computer Programming</td>
+                        <td>August 8, 2026</td>
+                        <td>9:00 AM - 9:15 AM</td>
+                        <td>Draft Feedback</td>
+                        <td><button type="button" class="btn-done">Done</button></td>
+                    </tr> 
+        
+                    <tr>
+                        <td>Miguel Evangelista</td>
+                        <td>Computer Programming</td>
+                        <td>August 8, 2026</td>
+                        <td>1:00 PM - 1:15 PM</td>
+                        <td>Draft Feedback</td>
+                        <td><button type="button" class="btn-done">Done</button></td>
+                    </tr> 
+
+                    <tr>
+                        <td>Anna Reyes</td>
+                        <td>Computer Programming</td>
+                        <td>August 8, 2026</td>
+                        <td>3:00 PM - 3:15 PM</td>
+                        <td>Draft Feedback</td>
+                        <td><button type="button" class="btn-done">Done</button></td>
+                    </tr> 
+        
+
+<!-- ACTIVE APPOINTMENTS (AKA: UPCOMING) -->                            
+                    <tr>
+                        <td>Juan Cruz</td>
+                        <td>Computer Programming</td>
+                        <td>September 1, 2026</td>
+                        <td>9:00 AM - 9:15 AM</td>
+                        <td>Draft Feedback</td>
+                        <td><button type="button" class="btn-cancel">Cancel</button></td>
+                    </tr> 
+        
+                    <tr>
+                        <td>Ana Reyes</td>
+                        <td>Computer Programming</td>
+                        <td>September 1, 2026</td>
+                        <td>1:00 PM - 1:15 PM</td>
+                        <td>Homework 2 Assistance</td>
+                        <td><button type="button" class="btn-cancel">Cancel</button></td>
+                    </tr> 
+
+                    <tr>
+                        <td>Miguel Torres</td>
+                        <td>Computer Programming</td>
+                        <td>September 2, 2026</td>
+                        <td>9:00 AM - 9:15 AM</td>
+                        <td>Project Walkthrough</td>
+                        <td><button type="button" class="btn-reschedule">Reschedule</button></td>
+                    </tr> 
+                </table>
+            
+        </section>
+        
+
+
+
+
+
+
+
 </body>
 </html>
